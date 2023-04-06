@@ -1,0 +1,70 @@
+.poke__container {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #888888;
+  }
+  
+  .poke__info {
+    margin-bottom: 10px;
+  }
+  
+  .column {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+  }
+  
+  .poke__image {
+    display: inline-block;
+    width: 60%;
+    margin-right: 5%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .poke__image img {
+    max-width: 100%;
+  }
+  
+  .poke__image__buttons {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+  }
+  
+  .poke__stats {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .poke__stats h3 {
+    margin-top: 0;
+  }
+  
+  .poke__stats div {
+    margin-bottom: 10px;
+  }
+  
+  .add-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-btn:hover {
+    background-color: #c62828;
+  }
+  
